@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.heading
+{
+    margin-top: 1rem;
+    background:linear-gradient(black,grey);
+    color: white;
+    text-align: center;
+}
+.container
+{
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 80vh;
+   
+
+}
+.navbar{
+    margin-left: 3rem;
+    height: 100%;
+    width: 80%;
+   
+    display: flex;
+
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+}
+#inputfield{
+    
+    min-height: 3rem;
+    border: none;
+    width: 120%;
+    border: 2px solid black;
+ 
+    font-size: large;
+    
+}
+i{
+    padding-top: 0.5rem;
+ 
+   width: 3rem;
+    font-size: 200%;
+    background: linear-gradient(red,yellow);
+}
+#searchbtn
+{
+    font-size: 1rem;
+    font-weight: bold;
+    width: 6rem;
+    background: linear-gradient(red,yellow);
+    border: none;
+}
+.profile{
+    background-color: aquamarine;
+    border-radius: 1rem;
+  
+    min-height: 70vh;
+    
+    display: flex;
+}
+.left{
+    margin-top: 3rem;
+    margin-left:13rem;
+}
+#imgid{
+  
+    background-size: cover;
+   
+    
+    
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+.name,.role{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    font-size: 150%;
+    font-weight:bold ;
+}
+.right{
+    height: 20vh;
+    width:50%;
+    margin-top: 5rem;
+    margin-left: 5rem;
+
+   
+}
+.rightup{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rightdown{
+    margin-top: 4rem;
+    margin-left: 16rem;
+    height: 2rem;
+}
+.follower,.following,.repo{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 3rem;
+}
+.viewprofilebtn{
+    height: 4rem;
+    width: 13rem;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.loader {
+    margin-top: 5rem;
+    margin-left: 400px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
